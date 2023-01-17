@@ -1,0 +1,52 @@
+.ui.two.cards {
+    margin: 0px;
+    justify-content: center;
+}
+.list-series .content{
+    padding: 0.5em!important;
+
+}
+.ui.two.cards>.card {
+    
+    width: 120px;
+    margin-left: 0.8em;
+    margin-right: 0.8em;
+
+    .ui.card > .content > .header:not(.ui), .ui.cards > .card > .content > .header:not(.ui) {
+        font-size: 0.8em;
+    } 
+        
+   .ui.button {
+        padding: 0.78571429em 0.5em ; 
+    }
+
+}
+  
+.container-button {
+    text-align: center;
+    width: 100%;
+    padding: 30px 0;
+}
+.color {
+    background-color: #0e6a89!important;
+    color: white!important;
+}
+
+@media (min-width: 600px){
+
+    .ui.two.cards>.card {
+    
+        width: 160px;
+        margin-left: 1em;
+        margin-right: 1em;
+    
+        .ui.card > .content > .header:not(.ui), .ui.cards > .card > .content > .header:not(.ui) {
+            font-size: 1em;
+        } 
+            
+       .ui.button {
+            padding: 0.78571429em 1em ; 
+        }
+    
+    }
+}

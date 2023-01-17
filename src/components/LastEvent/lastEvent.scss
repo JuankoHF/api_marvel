@@ -1,0 +1,18 @@
+.title_event {
+    font-size: 1em !important;
+    color: black!important;
+}
+.last-event {
+    animation-name: cards;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1; 
+}
+@keyframes cards {
+    from {
+      opacity: 0;
+    }
+   
+    to {
+      opacity: 1;
+    }
+}

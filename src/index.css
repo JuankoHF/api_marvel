@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.comics-page .header {
+  margin-left: 0 !important;
+  margin-top: 30px !important;
+  margin-bottom: 50px !important;
+  font: 800 26px/1 "RobotoCondensed", "Trebuchet MS", Helvetica, Arial,
+    sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.series-page .header {
+  margin-left: 0 !important;
+  margin-top: 30px !important;
+  margin-bottom: 50px !important;
+  font: 800 26px/1 "RobotoCondensed", "Trebuchet MS", Helvetica, Arial,
+    sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+#slide-comics-image {
+  padding: 50px 0;
+  width: 100%;
+  background-image: url(./img/slide-comics.jpeg);
+  height: 200px;
+  background-position: top;
+  
+}
+
+#slide-series-image {
+  width: 100vw;
+  background-image: url(./img/last-movies.jpeg);
+  height: 200px;
+  background-position: top;
+  
+}
+
+.error-404 {
+  width: 100%;
+  background-image: url(./img/page-404.jpeg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.error-404-content-text {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  height: 100vh;
+}
+
+.error-404 .error-404-content-text h1 {
+  color: white;
+}
+.error-404 .error-404-content-text h2 {
+  color: white;
+  margin-bottom: 50px;
+}
+.error-404 .error-404-content-text .error-404-content-text-container {
+  text-align: center;
+}
+@media (min-width: 600px) {
+
+  #slide-series-image {
+    height: 350px;
+    
+  }
+
+  #slide-comics-image {
+    height: 350px;
+    
+  }
+  
+}

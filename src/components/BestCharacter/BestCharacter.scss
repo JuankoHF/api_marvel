@@ -1,0 +1,97 @@
+.best-characters {
+    padding: 40px 0;
+
+    .vertically {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .ui[class*="two column"].grid>.column:not(.row), 
+    .ui[class*="two column"].grid>.row>.column {
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    h1.header {
+      width: 100%;  
+      font-size: 20px;
+      color: #ffffff;
+      text-align: center;
+    }
+  
+    h3.header {
+      margin-top: 25px;
+      font-size: 16px;
+      text-align: center;
+      color: #ffffff;
+    }
+  
+    .buton_link{
+      width: 250px;
+      /*position: absolute;
+      left: calc(50% - 125px);*/
+      background-color: #00a3da;
+      margin: 2rem 0 0;
+      font-size: 16px;
+      padding: 10px;
+      line-height: 1.5rem;
+      color: #ffffff;
+      text-transform: uppercase;
+      
+  
+      &:hover {
+        background-color: #0a7ba0;
+        color: #ffffff;
+        transition: background-color 0.15s ease-in-out;
+        font-size: 18px;
+        
+      }
+    }
+  
+    .column.image-container img {
+      width: 100%;
+      height: auto;
+      margin-top: 20px;
+    }
+}
+
+@media (min-width: 600px) {
+  .best-characters {
+    padding: 40px 0 60px 0;
+
+    .vertically {
+        flex-direction: initial;
+    }
+    .ui[class*="two column"].grid>.column:not(.row), 
+    .ui[class*="two column"].grid>.row>.column {
+          width: 50%;
+    
+    }
+    h1.header {
+        width: auto;
+        font-size: 40px;
+        text-align: left;
+    }
+    h3.header {
+        font-size: 24px;
+        text-align: left;
+    }
+    button.button {
+        width: auto;
+        position: relative;
+        font-size: 20px;
+        padding: 14px;
+        
+    }
+
+    .column.image-container img {
+      margin-top: 20px;
+    }
+  }
+   
+}
